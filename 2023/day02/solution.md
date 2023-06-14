@@ -1,101 +1,115 @@
 
-## Basic linux commands
+**Day-2 of #90DaysOfDevOps**
 
--  ``ls`` --> The ls command is used to list files or directories in Linux and other Unix-based operating systems.
+[https://cdn.hashnode.com/res/hashnode/image/upload/v1686746050804/3409077e-bfaa-473e-aca1-ba62433bbbf8.avif?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686746050804/3409077e-bfaa-473e-aca1-ba62433bbbf8.avif?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
 
-![ls](https://user-images.githubusercontent.com/76457594/210222403-35776fbc-e509-4c9c-a0ad-e5975599ffab.png)
+### Table of contents
 
-- ``` ls -l ```--> Type the ls -l command to list the contents of the directory in a table format with columns including.
+- [Listing Command](https://gauravm.hashnode.dev/day-2-of-90daysofdevops#heading-listing-command)
+- [Directory Commands](https://gauravm.hashnode.dev/day-2-of-90daysofdevops#heading-directory-commands)
 
-       - content permissions
-       - number of links to the content
-       - owner of the content
-       - group owner of the content
-       - size of the content in bytes
-       - last modified date / time of the content
-       - file or directory name
+Welcome
+ to Day-2 of the #90DaysOfDevOps challenge, today we will be exploring 
+and learning some basic Linux commands like Listing Commands and 
+Directory Commands. These commands are crucial to managing Files and 
+Folders in Linux systems. Let's dive into these commands along with some
+ examples.
 
-![Uploading ls -l.png…]()
+### 
 
+### Listing Command
 
+The `ls` command is used to list down all files, directories, and subdirectories in the present working directory.
 
-- ```ls -a ```--> Type the ls -a command to list files or directories including hidden files or directories. In Linux, anything that begins with a . is considered a hidden file.
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1686748043177/979240ce-5d65-435f-8049-9be8d2659851.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686748043177/979240ce-5d65-435f-8049-9be8d2659851.png?auto=compress,format&format=webp)
 
-![ls -a](https://user-images.githubusercontent.com/76457594/210223013-9353abf0-159c-4797-a19f-3b78a8d4ef00.png)
+let's look at ls along with various flags and some examples:
 
-- ```ls *.sh``` -->
+`ls [option flag] [arguments]`
 
+- `ls -l`: This command is used to list the files and
+directories in a long list format with extra information like
+Permission, Owner, Size, and Modification date.
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686748148523/96c5881f-c821-49ae-a486-516edb6d8930.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686748148523/96c5881f-c821-49ae-a486-516edb6d8930.png?auto=compress,format&format=webp)
+    
+    `ls -a`: It lists all files and directories including hidden files and directories that start with a dot (.).
+    
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686748315484/998dbd76-f5ea-4ae5-8058-b6969177c0a2.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686748315484/998dbd76-f5ea-4ae5-8058-b6969177c0a2.png?auto=compress,format&format=webp)
+    
+    `ls *.sh`: It lists down all the files with the .sh extension, it is used when a user wants to filter based on some specific pattern.
+    
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686748646608/d6580e1e-d119-4681-9582-42df21317114.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686748646608/d6580e1e-d119-4681-9582-42df21317114.png?auto=compress,format&format=webp)
+    
+- `ls -i`: It lists files and directories along with their index number(inodes).
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686748848908/3040242d-7076-420f-94de-c328b75b06c8.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686748848908/3040242d-7076-420f-94de-c328b75b06c8.png?auto=compress,format&format=webp)
+    
+    `ls -d */`: It lists only directories that is allowing 
+    the user to view the directory structure without files and you can also 
+    specify a pattern to narrow down the output.
+    
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686749325220/39f426a6-e360-4866-a21d-0d6ee32e70c3.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686749325220/39f426a6-e360-4866-a21d-0d6ee32e70c3.png?auto=compress,format&format=webp)
+    
 
-![ls * sh](https://user-images.githubusercontent.com/76457594/210223067-f5c3a5bf-09b4-4525-90e7-9ce61186ae2e.png)
+### 
 
+### Directory Commands
 
-- ```ls -i ``` --> List the files and directories with index numbers in oders
+- `pwd:` This command prints the Present Working Directory.
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686749610880/531e87da-c6ab-4a0d-b995-b893eaf34e3a.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686749610880/531e87da-c6ab-4a0d-b995-b893eaf34e3a.png?auto=compress,format&format=webp)
+    
+    `cd path_to_directory`: This command changes the current path to provided path of a directory.
+    
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686749779617/686b4a07-8f05-4064-be61-97d0052cd6a4.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686749779617/686b4a07-8f05-4064-be61-97d0052cd6a4.png?auto=compress,format&format=webp)
+    
+    `cd ~ or just cd`: This command changes the directory to the home directory.
+    
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686749892182/a024ecc1-106c-4ae8-9927-203b7bd51318.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686749892182/a024ecc1-106c-4ae8-9927-203b7bd51318.png?auto=compress,format&format=webp)
+    
+    `cd -`: It allows you to go back to the last working directory.
+    
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686750018427/a4d10624-603c-46d4-bf2f-a615a07456da.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686750018427/a4d10624-603c-46d4-bf2f-a615a07456da.png?auto=compress,format&format=webp)
+    
+    `cd ..`: This command allows you to back one step backward in the directory structure.
+    
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686750140801/2a10f76a-2b33-40a8-870a-5bff9f48b521.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686750140801/2a10f76a-2b33-40a8-870a-5bff9f48b521.png?auto=compress,format&format=webp)
+    
+    `cd ../..`: This command allows you to move two steps backward in the directory structure.
+    
+- 
+    
+    ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686750348175/f4407e6b-3fba-4906-bfde-a4bd8f7d0afe.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686750348175/f4407e6b-3fba-4906-bfde-a4bd8f7d0afe.png?auto=compress,format&format=webp)
+    
+    `mkdir directoryName`: This command is used to make a directory. Here are some examples.
+    
+- 
+- `mkdir newFolder # Creates a new folder named 'newFolder'`
+- `mkdir .NewFolder # Creates a hidden directory (prefixing with a dot)`
+- `mkdir A B C D # Creates multiple directories at the same time`
+- `mkdir /home/user/Mydirectory # Creates a new folder in a specific location`
+- `mkdir -p A/B/C/D # Creates a nested directory structure`
 
-![ls-i](https://user-images.githubusercontent.com/76457594/210225502-946551c7-fd81-402b-b8ce-091792e24c44.png)
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1686750989243/6df73652-aa5b-4dab-9631-abcd15c3ac5e.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686750989243/6df73652-aa5b-4dab-9631-abcd15c3ac5e.png?auto=compress,format&format=webp)
 
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1686751015411/5ca83e48-fb4a-4bfd-a797-d66e3bd4c3e8.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686751015411/5ca83e48-fb4a-4bfd-a797-d66e3bd4c3e8.png?auto=compress,format&format=webp)
 
-
-- ``` ls -d */``` --> Type the ls -d */ command to list only directories.
-
-
-![ls-d*](https://user-images.githubusercontent.com/76457594/210223178-f7097a96-31b1-4c98-8b81-2e5b0e3a7bb7.png)
-
-
-## Directoy commands
-- ```pwd``` --> Print work directory. Gives the present working directory.
-
-![pwd](https://user-images.githubusercontent.com/76457594/210223234-e5f3a48c-1b08-4bce-943e-4fed50a12700.png)
-
-- ```cd path_to_directory``` --> Change directory to the provided path.
-
-![cd](https://user-images.githubusercontent.com/76457594/210223291-355b8eb1-d1b5-41a4-a1b3-07fe7d786794.png)
-
-- ```cd ~ ``` or just  ```cd ``` --> Change directory to the home directory.
-
-![cd ~](https://user-images.githubusercontent.com/76457594/210223377-845975d3-344d-49d3-946e-05f2d2170ac4.png)
-
-- ``` cd - ``` --> Go to the last working directory.
-
-![cd -](https://user-images.githubusercontent.com/76457594/210223414-d6333b9c-21cb-4053-abb9-871bbca5db08.png)
-
-
-- ``` cd ..``` --> Chnage directory to one step back.
-
-![cd](https://user-images.githubusercontent.com/76457594/210223531-956598ad-301c-486a-b02e-6e69c4104adb.png)
-
-- ``` cd ../..``` --> Use ls ../.. for contents two levels above.
-
-![cd  bs](https://user-images.githubusercontent.com/76457594/210223634-2f37f616-5857-4f31-a9a6-796b0f0ab1e5.png)
-
-
-- ``` mkdir  directoryName``` --> Use to make a directory in a specific location
-
-![mkdir  ](https://user-images.githubusercontent.com/76457594/210224037-9ba396ad-77a8-48d4-8d28-2fa513c2b06a.png)
-
-
-- ``` mkdir .NewFolder ``` --> Make a hidden directory (also . before a file to make it hidden)
-
-
-![mkdir  ](https://user-images.githubusercontent.com/76457594/210224230-89db3d98-f04a-4edd-998f-0f9a0219f06e.png)
-
-
-- ```mkdir A B C D ``` --> Make multiple directories at the same time.
-
-![mkdir A B C](https://user-images.githubusercontent.com/76457594/210224267-6d14de9a-2c05-4ea9-853f-ddb44dda8f23.png)
-
-
-- ```mkdir /home/user/Mydirectory ``` --> make a new folder in a specific location
-
-![mkdir inside](https://user-images.githubusercontent.com/76457594/210224331-dc7a2916-a64c-40ed-8951-7e2677df4957.png)
-
-
-- ```mkdir -p  A/B/C/D ``` --> Make a nested directory
-
-![mkdir-p](https://user-images.githubusercontent.com/76457594/210224365-78ec406e-0a2e-4666-a30d-ac406f0dd695.png)
-
-
-
-
-
-
-
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1686751035397/4cd0dd64-bda4-462e-8e02-ca0bc257f1b9.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686751035397/4cd0dd64-bda4-462e-8e02-ca0bc257f1b9.png?auto=compress,format&format=webp)
