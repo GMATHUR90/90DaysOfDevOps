@@ -1,8 +1,4 @@
-# Day-3 of 90daysofdevops
 
-[data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27400%27%20height=%27400%27/%3e](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27400%27%20height=%27400%27/%3e)
-
-[data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27200%27%20height=%27200%27/%3e](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27200%27%20height=%27200%27/%3e)
 
 Welcome to Day 3 of the #90DaysOfDevOps challenge. Today we will be exploring 
 some more basic Linux commands that are essential for any DevOps 
@@ -17,8 +13,8 @@ system efficiently. So, let's dive in!!!
 
 ### b) To change the access permissions of files
 
-`chmod 777 <filename> # To provide all access including read,write 
-                     #and execute`
+`chmod 777 <filename> # To provide all access including read,write and execute
+                      
 
 ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686755297530/481031e2-49cc-47a0-bb8e-d13e0ddcea97.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686755297530/481031e2-49cc-47a0-bb8e-d13e0ddcea97.png?auto=compress,format&format=webp)
 
@@ -38,8 +34,8 @@ system efficiently. So, let's dive in!!!
 
 ### e)To create a fruits.txt file and view the content
 
-`touch <file.txt> # To create a file
-echo "Content to be added in file" > file.txt #To add content in a file
+`touch <file.txt> # To create a file \n
+echo "Content to be added in file" > file.txt #To add content in a file \n
 cat <filename.txt> # To view the content of any text file.`
 
 ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686809651641/e4e5e2d1-7c37-4d48-8466-34ca86aa6724.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686809651641/e4e5e2d1-7c37-4d48-8466-34ca86aa6724.png?auto=compress,format&format=webp)
@@ -48,8 +44,8 @@ Since no content in Colors.txt why it prints nothing .
 
 ### f) Add content in fruit's.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
 
-`vim filename.txt # Create a text file and add content in it
-cat filename.txt # To view the content of any text file.`
+`vim filename.txt # Create a text file and add content in it \n
+cat filename.txt # To view the content of any text file.` \n
 
 ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686809743543/0947821a-544a-4998-84a6-5fb29b494fc5.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686809743543/0947821a-544a-4998-84a6-5fb29b494fc5.png?auto=compress,format&format=webp)
 
@@ -71,8 +67,8 @@ cat filename.txt # To view the content of any text file.`
 
 ### i) To create another file Colors.txt and to view the content.
 
-`touch <file.txt> # To create a file 
-cat <filename.txt> # To view the content of any text file.`
+`touch <file.txt> # To create a file \n
+cat <filename.txt> # To view the content of any text file.` \n
 
 ![https://cdn.hashnode.com/res/hashnode/image/upload/v1686808806966/6a5da632-ccbb-4346-8edf-aa979375ff97.png?auto=compress,format&format=webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1686808806966/6a5da632-ccbb-4346-8edf-aa979375ff97.png?auto=compress,format&format=webp)
 
